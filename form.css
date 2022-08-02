@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: lightskyblue;
+}
+h1{
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  margin-top: 25px;
+}
+h1, p{
+  text-align: center;
+  color: white;
+}
+form{
+  margin: 40px 450px;
+}
+.entries{
+ color: white;
+ font-size: 17px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.values{
+  padding: 7px;
+  background-color: black;
+  width: 100%;
+  color: wheat;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 5px;
+  border: none;
+  background-color: rgb(215, 237, 240);
+}
+.account{
+  margin: 10px 0;
+  color: white;
+}
+.about{
+  background-color: black;
+  color: lightskyblue;
+  padding: 15px 10px;
+}
+.aboutUs{
+  padding: 5px 3px;
+}
+#bio{
+  margin-top: 10px;
+}
+#bio textarea{
+  height: 40px;
+  width: 80%;
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+.button{
+  margin: 0 100px;
+  padding: 5px 100px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid white;
+}

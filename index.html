@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration form</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <h1>Registration form</h1>
+  <p>Please fill out this with the required information</p>
+<!-- input values  -->
+<form action="">
+  <div>
+    <label class="entries" >Enter your first name:  </label> <br>
+    <input type="text" name="First-name" class="values">
+  </div>
+  <div>
+    <label class="entries">Enter your Last name:</label><br>
+    <input type="text" name="Last-name" class="values">
+  </div>
+  <div>
+    <label class="entries">Enter your Email:</label> 
+    <br>
+    <input type="email" name="Email" class="values">
+  </div>
+  <div>
+    <label class="entries">Create a new Password:</label> 
+    <br>
+    <input type="password" name="password" class="values">
+  </div>
+  <hr>
+  <div class="account">
+    <input type="radio" name="Account" id="">
+  <label >Personal Account</label>
+  </div>
+  <div class="account">
+    <input type="radio" name="Account" id="">
+  <label >business Account</label>
+  </div>
+  <div class="account">
+    <input type="checkbox" name="" id="">
+  <label >i accept the <a href="#">terms and condition</a></label>
+  </div>
+  <hr>
+  <div class="about">
+    <label>Upload a profile picture</label><br>
+  <input type="file" name="picture">
+  </div>
+  <div class="about">
+    <label>Input your age(years): </label><br>
+  <input type="number" name="age" class="aboutUs">
+  </div>
+  <div class="about">
+  <label>How did you hear about us?
+    <div>
+      <select name="about" class="aboutUs">
+        <option value="">Where did you hear about us</option>
+        <option value="">Social media</option>
+        <option value="">From a friend</option>
+        <option value="">Website</option>
+        <option value="">around</option>
+      </select>
+    </div>
+  </label>
+</div>
+<div id="bio">
+  <label>Provide a bio:</label>
+  <div>
+    <textarea name="bio" cols="30" rows="10" placeholder="i like coding on the beach..."></textarea>
+  </div>
+</div>
+<input type="button" value="Submit" class="button">
+</form>
+</body>
+</html>
